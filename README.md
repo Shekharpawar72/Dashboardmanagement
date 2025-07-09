@@ -14,6 +14,8 @@ pnpm dev
 bun dev
 ```
 
+Deployed link: https://dashboardmanagement-gjhf.vercel.app/
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -32,5 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot 2025-07-09 200842](https://github.com/user-attachments/assets/ecb621ab-25c2-455e-abb8-c94cbb4a2582)
+
+
+Deployed link: https://dashboardmanagement-gjhf.vercel.app/
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+![Screenshot 2025-07-09 200842](https://github.com/user-attachments/assets/d6e7ea85-7199-40e9-8493-c7b4c1a060ce)
+
