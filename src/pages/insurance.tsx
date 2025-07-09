@@ -1,0 +1,41 @@
+import React from 'react';
+import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
+
+// Exportable content component for internal rendering
+export function InsuranceContent() {
+  return (
+    <div className="p-8">
+      <h2 className="text-2xl font-bold mb-4">Insurance Management</h2>
+      <p>Manage insurance policies and claims here.</p>
+      <div className="mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="bg-white border rounded-lg p-4 shadow">
+            <h3 className="font-semibold mb-2">Active Policies</h3>
+            <p className="text-2xl font-bold text-blue-600">1,247</p>
+          </div>
+          <div className="bg-white border rounded-lg p-4 shadow">
+            <h3 className="font-semibold mb-2">Pending Claims</h3>
+            <p className="text-2xl font-bold text-orange-600">89</p>
+          </div>
+          <div className="bg-white border rounded-lg p-4 shadow">
+            <h3 className="font-semibold mb-2">Processed Claims</h3>
+            <p className="text-2xl font-bold text-green-600">3,456</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function InsurancePage() {
+  return (
+    <div className="flex flex-col md:flex-row min-h-screen bg-white">
+      <Sidebar activePage="insurance" />
+      <div className="flex-1">
+        <Header />
+        <InsuranceContent />
+      </div>
+    </div>
+  );
+}
